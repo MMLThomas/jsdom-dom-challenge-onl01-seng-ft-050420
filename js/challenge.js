@@ -71,6 +71,8 @@ document.querySelector('#pause').addEventListener('click', function(event){
   pause()
 });
 
+document.querySelector('')
+
 
 
 
