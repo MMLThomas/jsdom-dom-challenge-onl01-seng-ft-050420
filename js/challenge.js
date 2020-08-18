@@ -78,10 +78,10 @@ document.querySelector('#comment-form').addEventListener("submit", function(even
     event.preventDefault();
     
     let node = document.createElement("Li");
-    let comment = document.getElementById('comment-input').value;
+    let comment = document.querySelector('#comment-input').value;
     let new_node = document.createTextNode(comment);
     node.appendChild(new_node);
-    let comments = document.getElementById('#list');
+    let comments = document.querySelector('#list');
     comments.appendChild(node);
   });
 
