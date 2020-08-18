@@ -72,7 +72,7 @@ document.querySelector('#pause').addEventListener('click', function(event){
 });
 
 
-document.querySelector('#comment-form').addEventListener('#submit', function(event) {
+document.querySelector('#comment-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
     let node = document.createElement("Li");
