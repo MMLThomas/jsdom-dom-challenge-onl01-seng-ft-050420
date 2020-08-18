@@ -81,9 +81,8 @@ document.querySelector('#comment-form').addEventListener("submit", function(even
     let comment = document.getElementById('comment-input').value;
     let new_node = document.createTextNode(comment);
     node.appendChild(new_node);
-    let taskList = document.getElementById('tasks');
-    taskList.appendChild(node);
-    
+    let comments = document.getElementById('#list');
+    comments.appendChild(node);
   });
 
 
