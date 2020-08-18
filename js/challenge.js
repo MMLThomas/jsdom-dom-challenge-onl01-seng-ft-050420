@@ -75,12 +75,12 @@ document.querySelector('#pause').addEventListener('click', function(event){
 document.querySelector('#comment-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    let node = document.createElement("Li");
+    // let node = document.createElement("Li");
     let comment = document.querySelector('#comment-input').value;
     let new_node = document.createTextNode(comment);
-    node.appendChild(new_node);
+    // node.appendChild(new_node);
     let comments = document.querySelector('#list');
-    comments.appendChild(node);
+    comments.appendChild(new_node);
   });
 
 
