@@ -71,8 +71,6 @@ document.querySelector('#pause').addEventListener('click', function(event){
   pause()
 });
 
-document.querySelector('')
-
 
 document.querySelector('#comment-form').addEventListener('#submit', function(event) {
     event.preventDefault();
