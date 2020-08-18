@@ -50,7 +50,7 @@ function pause(){
     pause.innerText = 'resume'
   }
   else{
-    count;
+    let count = setInterval(add_second, 1000);
     pause.innerText = 'pause';
   }
 }
